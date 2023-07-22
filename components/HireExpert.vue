@@ -1,9 +1,11 @@
 <template>
-  <div class="md:flex md:mx-[165px] bg-[#F9FAFB] rounded-[20px]">
-    <div class="mt-[58px] px-[39px] p-[16px]">
+  <div class="md:flex md:mx-[165px] mx-[10px] bg-[#F9FAFB] rounded-[20px] ">
+    <div class="my-[58px] px-[17px] md:px-[39px] py-6 md:py-4">
       <div class="text-[#111827] space-y-4">
-        <p class="text-[32px] font-semibold leading-[40px] tracking-[-0.64px]">
-          Hire expert QA Engineers
+        <p
+          class="text-lg md:text-[32px] font-extrabold md:font-semibold leading-[24px] md:leading-[40px] tracking-[-0.36px] md:tracking-[-0.64px]"
+        >
+          Hire Expert QA Engineers
         </p>
         <p class="text-[18px] pb-[24px] leading-[28px] font-light">
           Save time without compromising quality by hiring from our pool of
@@ -40,7 +42,7 @@
         </button>
       </div>
     </div>
-    <div>
+    <div class="md:w-[606.258px]">
       <img :src="Hire" alt="HireIcon" />
     </div>
   </div>
@@ -48,5 +50,5 @@
 
 <script setup>
 import list from "../assets/List.svg";
-import Hire from "../assets/Hire.svg"
+import Hire from "../assets/Hire.svg";
 </script>
