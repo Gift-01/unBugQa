@@ -1,9 +1,11 @@
 <template>
-  <div class="md:flex bg-[#E9F2FF] md:p-[60px] py-[16px] md:mx-[167px] my-[72px] md:my-[180px]">
-    <div class=" md:w-[585px]">
+  <div
+    class="md:flex bg-[#E9F2FF] py-[32px] md:py-[60px] px-[36px] md:px-[60px] mx-[10px] md:mx-[167px] my-[72px] md:my-[180px] space-y-5 rounded-[20px]"
+  >
+    <div class="md:w-[585px]">
       <div class="space-y-2.5 mb-[24px]">
         <p
-          class="md:text-[28px] md:leading-[24px] text-[#111827] tracking-[-0.56px] md:font-semibold"
+          class="text-[16px] md:text-[28px] leading-[24px] text-[#111827] tracking-[-0.56px] font-semibold"
         >
           We guarantee the high quality of your product.
         </p>
@@ -19,24 +21,15 @@
         Talk to Sales
       </button>
     </div>
-    <div class="bg-white absolute right-[62px] bottom-[]">
-      <form class="">
-        <div class="flex">
-          <label for="text">Headline</label>
-          <input placeholder="Your Company" />
-        </div>
-        <div>
-          <label>Profiency</label>
-          <input />
-        </div>
-        <div>
-          <label>Skills</label>
-          <input placeholder="Search Skills" />
-        </div>
-        <label> Popular skills for QA Engineers</label>
-      </form>
+    <div
+      class="md:mr-[140px] bg-white md:absolute md:right-[62px] md:bottom-[-3712px] "
+    >
+      <img :src="Contact" alt="Contact" class="md:w-[279px]" />
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Contact from "../assets/Contact.svg";
+import ContactTwo from "../assets/Contact.svg";
+</script>

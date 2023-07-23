@@ -1,9 +1,9 @@
 <template>
   <div class="md:mx-[165px] mx-[20px] md:my-[150px]">
     <p
-      class="text-center text-[#111827] text-[36px] font-bold leading-[44px] tracking-[-0.72px] my-[38px]"
+      class="text-center text-[#111827] text-[18px] md:text-[36px] font-bold leading-[24px] md:leading-[44px] tracking-[-0.36px] md:tracking-[-0.72px] my-[38px]"
     >
-      Feature article
+      Featured articles
     </p>
     <div class="md:flex space-y-14 md:space-x-8">
       <div

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#F9FAFB] md:flex md:mx-[165px] my-[56px] md:my-[64px] rounded-[20px]"
+    class="bg-[#F9FAFB] md:flex mx-[16px] md:mx-[165px] my-[56px] md:my-[64px] rounded-[20px]"
   >
     <div
       class="md:my-[59px] mx-[16px] md:mx-[39px] px-4 md:px-[39px] py-6 md:py-4 md:w-[596px]"
@@ -54,5 +54,3 @@ import GreenList from "../assets/GreenList.svg";
 import user from "../assets/User.svg";
 import Beta from "../assets/BetaIcon.svg";
 </script>
-
-<style lang="scss" scoped></style>

@@ -3,15 +3,15 @@
     <div
       class="flex items-center justify-between py-2 md:py-6  container mx-auto "
     >
-      <div class="flex flex-1 space-x-[30px]">
+      <div class="flex flex-1 space-x-[30px] max-sm:justify-between max-sm:px-[16px]">
         <div>
           <img :src="logo" alt="Logo" />
         </div>
-        <!-- Hamburger icon for mobile menu toggle -->
-        <button @click="toggleMobileMenu" class="lg:hidden">
+      
+        <button @click="toggleMobileMenu" max-sm:block class="lg:hidden max-sm:block hidden">
           <img :src="Menu" alt="Menu" />
         </button>
-        <!-- Mobile menu -->
+       
         <div
           v-if="showMobileMenu"
           class="lg:hidden fixed top-0 left-0 w-full h-full bg-white"
@@ -50,8 +50,8 @@
             </div>
           </div>
         </div>
-        <!-- End Mobile menu -->
-        <!-- Desktop menu -->
+        
+      
         <div class="hidden lg:flex space-x-6 flex items-center">
           <NuxtLink to="#" class="text-[#111827] flex ">Products
             <img :src="Dropdown" alt="DropdownIcon" class="text-[#111827]"/>
@@ -64,7 +64,7 @@
           >
           <NuxtLink to="/blog" class="text-[#111827] ">Blogs</NuxtLink>
         </div>
-        <!-- End Desktop menu -->
+       
       </div>
       <div class="hidden md:block">
         <button class="bg-[#267DFF] text-white px-[20px] py-[8px] rounded-md">
@@ -88,17 +88,3 @@ function toggleMobileMenu() {
 }
 </script>
 
-<style>
-/* Add your existing styles here */
-
-/* Mobile Menu Styles */
-@media (max-width: 767px) {
-  .lg:hidden {
-    display: block;
-  }
-
-  .hidden {
-    display: none;
-  }
-}
-</style>
